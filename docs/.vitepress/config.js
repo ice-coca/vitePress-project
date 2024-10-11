@@ -9,11 +9,10 @@ import topNav from "./topNav";
 import { vitePressNote } from "./sideBar/vitePressBar";
 
 export default {
-  title: "前端吧",
-  description: "关注web前端开发为主的博客网站和前端网址大全",
+  title: "学习笔记",
+  description: "我的个人学习记录",
   // 打包目录
   outDir: "../dist",
-  /** 打包项目的根目录 */
   base: "/vitePress-project/",
   head: [
     // 添加图标
@@ -25,7 +24,7 @@ export default {
   themeConfig: {
     // 导航上的logo
     logo: "/logo.png",
-    // 当为布尔值false时，隐藏logo右边的标题，字符串时就显示标题（siteTitle: '我的标题'）
+    // 隐藏logo右边的标题
     siteTitle: false,
     // 导航栏配置
     nav: topNav,
@@ -37,17 +36,17 @@ export default {
     outlineTitle: "本页目录",
     // 编辑链接
     editLink: {
-      pattern: "https://github.com/msyuan/vitePress-project",
+      pattern: "https://github.com/ice-coca/vitePress-project",
       text: "在 github 上编辑此页",
     },
     // 站点页脚配置
     footer: {
       // message: "Released under the MIT License",
-      copyright: "Copyright © 2023-present Lao Yuan",
+      copyright: "Copyright © 2024-present jielin chen",
     },
     // 社交和项目链接地址配置
     socialLinks: [
-      { icon: "github", link: "https://github.com/msyuan/vitePress-project" },
+      { icon: "github", link: "https://github.com/ice-coca/vitePress-project" },
       // 也可以自定义svg的icon:
       // {
       //   icon: {
